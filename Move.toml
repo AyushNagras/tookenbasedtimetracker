@@ -1,0 +1,15 @@
+[package]
+name ="tooken-based-time-tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+tookenbasedtimetracker="0x46d439067156136e0bc490c477563e38e4bff3f1a17a6041284d6432c4c1bde4"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
